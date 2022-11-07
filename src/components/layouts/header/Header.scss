@@ -11,8 +11,8 @@ body {
       justify-content: center;
       align-items: center;
       .img_agov {
-        height: 76.2px;
-        width: 72px;
+        height: 57px;
+        width: 55px;
         left: 12.92%;
         right: 83.33%;
         top: 34.93px;
@@ -39,6 +39,9 @@ body {
     .nav-item{
       display: flex;
       align-items: center;
+      padding: 10px;
+      font-family: PF Din Text Comp Pro;
+      font-size: 17px;
     }
 
     .nav-link{

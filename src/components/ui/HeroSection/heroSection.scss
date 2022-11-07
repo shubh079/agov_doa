@@ -1,0 +1,126 @@
+    body {
+        font-family: 'HelveticaNeueLTProBd', Helvetica Neue LT Pro;
+    }
+
+    .hero_Section_wrp{
+        .row{
+            margin-top: 57px;
+            height: 300px;
+        .text_future_commerce{
+            font-family: 'Helvetica Neue LT Pro';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 30.7923px;
+            // line-height: 120%;
+            /* or 68px */
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        .btn_commerce{
+            display: flex;
+            gap: 20px;
+            margin-top: 35px;
+        }
+        .metamask_connect_btn1{
+            /* Frame 3 */
+            border: solid 1px #EB63D9  ;
+            font-family: 'PF Din Text Comp Pro';
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 40px;
+            gap: 10px;
+            width: 176px;
+            color: #FFFFFF;
+            background: transparent;
+            height: 57px;
+            border-radius: 10px;
+        }
+
+        .metamask_connect_btn2{
+                  
+            font-family: 'PF Din Text Comp Pro';
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 40px;
+            gap: 10px;
+            width: 176px;
+            color: #FFFFFF;
+            height: 57px;
+            border-radius: 10px;
+            background: linear-gradient(270deg, #D063EB 0%, #EB63D9 100%);
+            border-radius: 10px;
+        }
+        
+        .token_value{
+            display: flex;
+            margin-top: 50px;
+        }
+        .value{
+            display: inline-block;
+        }
+        .num{
+            font-style: normal;
+             font-weight: 900;
+            font-size: 26.5531px;
+            line-height: 140%;
+        }
+        .token_num{
+            
+            // flex-direction: row;
+            // align-items: flex-start;
+            // padding: 0px;
+            // gap: 37px;
+            // text-align: center;
+            // text-transform: uppercase;
+            color: #FFFFFF;
+            // height: 51px;
+            font-family: 'Helvetica Neue LT Pro';
+            // font-style: normal;
+            // font-weight: 900;
+            // font-size: 26.5531px;
+            // line-height: 140%;
+
+        }
+        .token_text{
+            display: inline-block;
+            font-size: 17px;
+            color: #FFFFFF;
+        }
+
+        .etherum_img{
+            width: 50%;
+            margin-top: -85px;
+            height: auto;
+            margin-left: 40%;
+        }
+        .btn_etherum{
+            font-family: 'PF Din Text Comp Pro';
+            margin-left: 100px;
+            .btn_eth{
+                display: block;
+                padding: 6px 16px 4px;
+                background: linear-gradient(90deg, #000000 0%, #4C2D8D 100%);
+                border-radius: 80px;
+            }
+            .btn_agov{
+                padding: 6px 16px 4px;
+                background: linear-gradient(90deg, #000000 0%, #4C2D8D 100%);
+                border-radius: 80px;
+                margin-left: -20px;
+                margin-top: 4px;
+            }
+            .line{
+                width: 1358px;
+                height: 0px;
+                left: 281px;
+                top: 761px;
+                margin-top: 50px;
+            }
+        }
+    }
+    }

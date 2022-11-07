@@ -83,6 +83,10 @@
       format('svg');
 }
 
+@font-face {
+  font-family: PF Din Text Comp Pro;
+  src: url("../src//assets//fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light.ttf");
+}
 body {
   font-family: 'HelveticaNeueLTProBd', Helvetica Neue LT Pro;
 }

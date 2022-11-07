@@ -1,0 +1,100 @@
+body {
+    font-family: 'HelveticaNeueLTProBd', Helvetica Neue LT Pro;
+  }
+
+
+.partnersection_wrp{
+
+    .container{
+        
+        .row{
+
+            .partner{  
+
+                .partner_heading{
+
+                    width: 274px;
+                    height: 90px;
+                    margin-left: 350px;
+                    font-family: 'Helvetica Neue LT Pro';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 64px;
+                    line-height: 140%;
+                    text-align: center;
+                    text-transform: uppercase;
+                    background: linear-gradient(90deg, #000000 0%, #4C2D8D 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+
+
+                }
+                   
+            }
+
+            .partner_grp{
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                gap: 81px;
+
+                width: 1129.15px;
+                height: 86.8px;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+
+            }
+
+            .press{
+
+                .press_heading{
+
+                    width: 172px;
+                    height: 90px;
+                    margin-left: 450px;
+                    font-family: 'Helvetica Neue LT Pro';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 64px;
+                    line-height: 140%;
+                    text-align: center;
+                    text-transform: uppercase;
+                    background: linear-gradient(90deg, #000000 0%, #4C2D8D 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+
+                }
+
+                .press_img{
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 100px;
+                    width: 1100px;
+                    height: 70.4px;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                }
+            }
+        }
+    }
+}

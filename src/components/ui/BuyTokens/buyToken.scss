@@ -1,279 +1,319 @@
-body {
-    font-family: 'HelveticaNeueLTProBd', Helvetica Neue LT Pro;
-  }
+.buytoken_wrp {
+  background: url("../../../assets/images/header_bg1.png"),
+    radial-gradient(59% 73% at 23% 50%, #65d6e8 0%, rgba(104, 216, 233, 0) 100%);
+  background-size: 98%;
+  background-repeat: no-repeat;
+  overflow: hidden;
 
-  .buytoken_wrp{
-    .container{
-        .row{
-            justify-content: center;
-            text-align: center;
-            display: flex;
-            margin-top: 77px;
-            .heading_tok{
-                justify-content: center;
-                align-items: center;
-                .buy_tok{
-                     
-                    text-align: center;
-                    font-family: 'Helvetica Neue LT Pro';
-                    font-style: normal;
-                    font-weight: 900;
-                    font-size: 35px;
-                    line-height: 140%;
-                    text-transform: uppercase;
-                    color: #FFFFFF;
+  .container {
+    .row {
+      text-align: center;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
 
-                }
-                .sub_heading{
-                    
-                    margin-top: 15px;
-                    font-family: 'Rubik';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 19px;
-                    line-height: 140%;
-                    margin-top: 15px;
-                    text-align: center;
-                    text-transform: uppercase;
-                    background: linear-gradient(90deg, #CCBBFF 0%, #7427FF 52.08%, #00BAFF 100%);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    background-clip: text;
-                    text-fill-color: transparent;
-                }
-                .paragraph{
-                   
+      .heading_tok {
+        justify-content: center;
+        align-items: center;
 
-                font-family: 'Rubik';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 17px;
-                line-height: 140%;
-                /* or 28px */
-                margin-top: 35px;
-                text-align: center;
+        .buy_tok {
+          margin-top: 2em;
+          text-align: center;
+          font-family: "HelveticaNeueLTProBlkCn";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 35px;
+          line-height: 140%;
+          text-transform: uppercase;
+          color: #ffffff;
 
-                color: #FFFFFF;
-                }
-            }
-            .btn_buynow{
-        
-                margin-top: 50px;
-                padding: 20px 40px;
-                gap: 10px;
-                width: 200px;
-                height: 55px;
-                background: #FFFFFF;
-                border-radius: 10px;
-
-                .btn_agov{
-                    width: 80px;
-                    height: 34px;
-                    font-family: 'PF Din Text Comp Pro';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 19px;
-                    line-height: 140%;
-                    text-transform: uppercase;
-                    color: #000000;
-                    flex: none;
-                    order: 0;
-                    flex-grow: 0;
-
-                }
-            }
-
-            .glassmorphism{
-                box-sizing: border-box;
-                margin-top: 60px;
-                height: 383px;
-                left: 12.92%;
-                right: 12.92%;
-                top: 3003px;
-                background: rgba(33, 25, 66, 0.6);
-                backdrop-filter: blur(25px);
-                /* Note: backdrop-filter has minimal browser support */
-    
-                border-radius: 20px;
-
-                .uniswap_btn{
-
-
-
-                /* Auto layout */
-              
-                display: flex;
-                flex-direction: row;
-                align-items: flex-start;
-                padding: 20px 40px;
-                gap: 10px;
-                margin-left: 150px;
-                margin-top: 50px;
-            
-                width: 248px;
-                height: 68px;
-                left: 474px;
-                top: 3218.07px;
-
-                background: #EB63D9;
-                border-radius: 10px;
-
-                }
-                .etherson_btn{
-                       
-                    display: flex;
-                    flex-direction: row;
-                    align-items: flex-start;
-                    padding: 20px 40px;
-                    margin-top: 45px;
-                    margin-left: 200px;
-                    gap: 10px;
-                    width: 116px;
-                    height: 68px;
-                    left: 1222px;
-                    top: 3218.07px;
-
-                    background: #EB63D9;
-                    border-radius: 10px;
-                }
-            }
-
-            .supply{
-
-                .total_supply{
-                           
-                    width: 339px;
-                    height: 35px;
-                    left: 790.88px;
-                    top: 3525px;
-
-                    font-family: 'Rubik';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 25.1871px;
-                    line-height: 140%;
-                    /* or 35px */
-
-                    text-align: center;
-                    text-transform: uppercase;
-
-                    /* Agov-1-Hor */
-
-                    background: linear-gradient(90deg, #CCBBFF 0%, #00BAFF 100%);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    background-clip: text;
-                    text-fill-color: transparent;
-
-                }
-                .total_num{
-                    
-                    display: inline-block;
-                    width: 601px;
-                    height: 106px;
-                    left: 660.22px;
-                    top: 3560.42px;
-
-                    font-family: 'HelveticaNeueCyr';
-                    font-style: normal;
-                    font-weight: 900;
-                    font-size: 75.5614px;
-                    line-height: 140%;
-                    /* identical to box height, or 106px */
-
-                    text-align: center;
-                    text-transform: uppercase;
-
-                    color: #FFFFFF;
-                }
-                .circulating_supply{
-                    width: 274px;
-                    height: 35px;
-                    left: 821.85px;
-                    top: 3742.24px;
-
-                    font-family: 'Rubik';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 25.1871px;
-                    line-height: 140%;
-                    /* or 35px */
-
-                    text-align: center;
-                    text-transform: uppercase;
-
-                    /* Agov-1-Hor */
-
-                    background: linear-gradient(90deg, #CCBBFF 0%, #00BAFF 100%);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    background-clip: text;
-                    text-fill-color: transparent;
-
-                }
-                .tot_num{
-                    width: 505px;
-                    height: 106px;
-                    left: 708.22px;
-                    top: 3777.66px;
-
-                    font-family: 'HelveticaNeueCyr';
-                    font-style: normal;
-                    font-weight: 900;
-                    font-size: 75.5614px;
-                    line-height: 140%;
-                    /* identical to box height, or 106px */
-
-                    text-align: center;
-                    text-transform: uppercase;
-
-                    color: #FFFFFF;
-                }
-            }
-
-            .governance_heading{
-
-                width: 1076px;
-                height: 90px;
-                left: 422px;
-                top: 4006px;
-                margin-top: 50px;
-                font-family: 'Helvetica Neue LT Pro';
-                font-style: normal;
-                font-weight: 900;
-                font-size: 32px;
-                line-height: 140%;
-                /* or 45px */
-
-                text-align: center;
-
-                /* Agov-1-Hor */
-
-                background: linear-gradient(90deg, #CCBBFF 0%, #00BAFF 100%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-                text-fill-color: transparent;
-            }
-            .governance_para{
-
-                width: 1076px;
-                height: 112px;
-                left: 422px;
-                top: 4123px;
-                margin-top: 25px;
-                font-family: 'Rubik';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 20px;
-                line-height: 140%;
-                /* or 28px */
-
-                text-align: center;
-
-                color: #FFFFFF;
-            }
+          h1 {
+            font-size: 46px;
+          }
         }
-        
+        .sub_heading {
+          margin-top: 15px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 19px;
+          line-height: 140%;
+          margin-top: 15px;
+          text-align: center;
+          text-transform: uppercase;
+          background: linear-gradient(
+            90deg,
+            #ccbbff 0%,
+            #7427ff 52.08%,
+            #00baff 100%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+        .paragraph {
+          display: flex;
+
+          justify-content: center;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          margin-top: 35px;
+          text-align: center;
+          color: #ffffff;
+
+          p {
+            width: 60%;
+          }
+        }
+      }
+      .btn_buynow {
+
+        height: auto;
+        width: 20%;
+        margin-top: 50px;
+        // padding: 20px 40px;
+        // gap: 10px;
+        align-items: center;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        background: #ffffff;
+        border-radius: 10px;
+
+        .btn_agov {
+          font-family: "PF Din Text Comp Pro";
+          font-style: normal;
+          font-weight: 700;
+          padding: auto;
+          font-size: 18px;
+          line-height: 0%;
+          text-transform: uppercase;
+          color: #000000;
+        }
+      }
+
+      .glassmorphism {
+        box-sizing: border-box;
+        margin-top: 60px;
+        background: rgba(33, 25, 66, 0.6);
+        backdrop-filter: blur(25px);
+        border-radius: 20px;
+
+        .row {
+          border: 1px solid blue;
+          border-radius: 19px;
+          padding: 44px;
+          
+        }
+
+        .uniswap_btn {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          padding: 20px 40px;
+          gap: 10px;
+          height: 68px;
+          background: #eb63d9;
+          border-radius: 10px;
+
+          .text_uniswap_btn {
+            height: 28px;
+
+            font-family: "PF Din Text Comp Pro";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 140%;
+            text-transform: uppercase;
+            color: #ffffff;
+          }
+        }
+        .etherson_btn {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          padding: 20px 40px;
+          gap: 10px;
+          background: #eb63d9;
+          border-radius: 10px;
+
+          .text_scan_btn {
+            height: 28px;
+            font-family: "PF Din Text Comp Pro";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 140%;
+            text-transform: uppercase;
+            color: #ffffff;
+          }
+        }
+      }
+
+      .supply {
+        padding-top: 3%;
+        display: flex;
+        flex-direction: column;
+
+        .project {
+          padding-top: 50px;
+          display: flex;
+          flex-direction: column;
+        }
+        .total_supply {
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 25.1871px;
+          line-height: 140%;
+          text-align: center;
+          text-transform: uppercase;
+          background: linear-gradient(90deg, #ccbbff 0%, #00baff 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+        }
+        .total_num {
+          display: inline-block;
+          font-family: "HelveticaNeueLTProBlkCn";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 64px;
+          line-height: 140%;
+          text-align: center;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+
+        .circular {
+          display: flex;
+          flex-direction: column;
+          .circulating_supply {
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25.1871px;
+            line-height: 140%;
+            text-align: center;
+            text-transform: uppercase;
+            background: linear-gradient(90deg, #ccbbff 0%, #00baff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+          }
+        }
+        .tot_num {
+          font-family: "HelveticaNeueLTProBlkCn";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 75.5614px;
+          line-height: 140%;
+          /* identical to box height, or 106px */
+
+          text-align: center;
+          text-transform: uppercase;
+
+          color: #ffffff;
+        }
+      }
+
+      .governance_heading {
+        margin-top: 50px;
+        font-family: "HelveticaNeueLTProBlkCn";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 140%;
+        /* or 45px */
+
+        text-align: center;
+
+        /* Agov-1-Hor */
+
+        background: linear-gradient(90deg, #ccbbff 0%, #00baff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      .governance_para {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        margin-top: 25px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        /* or 28px */
+
+        text-align: center;
+
+        color: #ffffff;
+
+        p {
+          width: 80%;
+        }
+      }
     }
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .buytoken_wrp {
+    background: url("../../../assets/images/buy_bg.png");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+ 
+    .container {
+      .row {
+        .glassmorphism {
+          .uniswap_btn {
+             
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px 20px;
+
+          }
+
+          .row{
+
+            gap: 30px;
+
+            .gap_mobile{
+              gap: 20px;
+
+            }
+
+            img{
+              height: auto;
+              width: 100%;
+              
+            }
+
+
+          }
+        }
+
+        .supply{
+
+          gap: 25px;
+          .total_num{
+            font-size: 40px;
+          }
+          .tot_num{
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
+}

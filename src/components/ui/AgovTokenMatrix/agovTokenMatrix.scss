@@ -1,28 +1,32 @@
-body {
-    font-family: 'HelveticaNeueLTProBd', Helvetica Neue LT Pro;
-  }
+
 
   .tokenmatrix_wrp{
+
+    background: radial-gradient(85% 40% at 10% 67%, #7c65db 0%, rgba(157, 97, 234, 0) 100%);
+    padding-bottom: 6em;
+
     .container{
+                 
+        .img1{
+            display: flex;
+            justify-content: space-between;
+      
+
         .radial2{
-                
-            height: 244.04px;
-            left: 83.54%;
-            right: 5.59%;
-            top: 1430.95px;
 
             border: 0.5px solid rgba(79, 0, 222, 0.29);
+
+      
          }
+
+        }
         .row{
              justify-content: center;
              text-align: center;
-             margin-top: 100px;
-             .radial1{
-               
-             }
-      
+             margin-top: -205px;
+             
             .token_matrix{
-                font-family: 'Helvetica Neue LT Pro';
+                font-family: "HelveticaNeueLTProBlkCn";
                 font-style: normal;
                 font-weight: 900;
                 font-size: 30px;
@@ -33,6 +37,8 @@ body {
 
         }
         .liquidity{
+
+            padding-top: 1em;
             display: inline-block;
             font-family: 'Rubik';
             font-style: normal;
@@ -59,3 +65,112 @@ body {
         }
     }
   }
+
+/* 480 */
+  @media only screen and (max-width: 649px) {
+  
+    .tokenmatrix_wrp{
+
+
+    background: radial-gradient(71% 85% at 19% 107%, #7c65db 0%, rgba(157, 97, 234, 0) 100%);
+    padding-bottom: 6em;
+
+        .container{
+
+            .chart{
+
+                text-align: left;
+            }
+
+           .radial2{
+                
+            img{
+                position: absolute;
+                top: 97rem;
+                left: 13rem;
+                height: auto;
+                width: 35%
+            }
+
+           }
+
+           .row{
+            
+            justify-content: center;
+            text-align: center;
+            margin-top: 15px;
+
+           }
+        }
+
+    }
+
+} 
+
+/* 1024 */
+@media only screen and (max-width: 1199px) {
+    .tokenmatrix_wrp{
+
+        .container{
+
+        }
+    }
+} 
+
+/* 980 */
+@media only screen and (max-width: 1023px) {
+
+    .tokenmatrix_wrp{
+
+        .container{
+            
+        }
+    }
+} 
+
+/* 768 */
+@media only screen and (max-width: 979px) {
+
+    .tokenmatrix_wrp{
+
+        .container{
+
+            
+        }
+    }
+} 
+
+/* 650 */
+@media only screen and (max-width: 768px) {
+
+    .tokenmatrix_wrp{
+
+        .container{
+
+
+            
+        }
+    }
+} 
+
+/* 375 */
+@media only screen and (max-width: 479px) {
+
+    .tokenmatrix_wrp{
+
+        .container{
+            
+        }
+    }
+} 
+
+/* 320 */
+@media only screen and (max-width: 374px) {
+
+    .tokenmatrix_wrp{
+
+        .container{
+            
+        }
+    }
+} 

@@ -1,9 +1,9 @@
 
-body {
-  font-family: 'HelveticaNeueLTProBd', Helvetica Neue LT Pro;
-}
 
 .header-wrapper {
+  
+  
+
   nav {
     .link_agov_logo {
       gap: 25px;
@@ -12,26 +12,20 @@ body {
       align-items: center;
       .img_agov {
         height: 57px;
-        width: 55px;
         left: 12.92%;
         right: 83.33%;
         top: 34.93px;
       }
 
       .text_agov {
-        width: 157px;
         height: 53px;
         left: 349px;
         top: 47px;
-        font-family: "Helvetica Neue LT Pro";
+        font-family: 'HelveticaNeueLTProBlkCn';
         font-style: normal;
         font-weight: 900;
         font-size: 32px;
-        // line-height: 82px;
-        /* or 53px */
-
         text-transform: uppercase;
-
         color: #ffffff;
       }
     }
@@ -54,7 +48,6 @@ body {
       gap: 20px;
       justify-content: center;
       align-items: center;
-      width: 204px;
       height: 54px;
     
       left: 1418px;

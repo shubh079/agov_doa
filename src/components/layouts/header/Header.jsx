@@ -4,9 +4,9 @@ import logo from "../../../assets/images/logo.png";
 import metamask from "../../../assets/images/metamask.png";
 const Header = () => {
   return (
-    <div className="header-wrapper">
-      <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid">
+    <div className="header-wrapper ">
+      <nav className="navbar navbar-expand-lg ">
+        <div className="container">
           <a className="navbar-brand link_agov_logo" href="#">
             <img
               src={logo}
@@ -18,7 +18,7 @@ const Header = () => {
            <span className="text_agov"> AGOV DAO</span>
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler navbar-dark"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -28,7 +28,8 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <div className="collapse navbar-collapse side_content" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link " aria-current="page" href="#">
@@ -53,6 +54,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
+
         </div>
       </nav>
     </div>

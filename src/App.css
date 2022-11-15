@@ -1,97 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
 @font-face {
-  font-family: 'HelveticaNeueLTProBd';
-  src: url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBd.eot');
-  src: url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBd.eot?#iefix')
-      format('embedded-opentype'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBd.woff2')
-      format('woff2'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBd.woff')
-      format('woff'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-Bd.ttf')
-      format('truetype'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-Bd.svg#Helvetica Neue LT Pro')
-      format('svg');
+  font-family: "HelveticaNeueLTProBd";
+  src: url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBd.eot");
+  src: url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBd.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBd.woff2")
+      format("woff2"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBd.woff")
+      format("woff"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-Bd.ttf")
+      format("truetype"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-Bd.svg#Helvetica Neue LT Pro")
+      format("svg");
 }
 @font-face {
-  font-family: 'HelveticaNeueLTProBdCn';
-  src: url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBdCn.eot');
-  src: url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBdCn.eot?#iefix')
-      format('embedded-opentype'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBdCn.woff2')
-      format('woff2'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBdCn.woff')
-      format('woff'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-BdCn.ttf')
-      format('truetype'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-BdCn.svg#Helvetica Neue LT Pro')
-      format('svg');
+  font-family: "HelveticaNeueLTProBdCn";
+  src: url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBdCn.eot");
+  src: url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBdCn.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBdCn.woff2")
+      format("woff2"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBdCn.woff")
+      format("woff"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-BdCn.ttf")
+      format("truetype"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-BdCn.svg#Helvetica Neue LT Pro")
+      format("svg");
 }
 @font-face {
-  font-family: 'HelveticaNeueLTProBlkCn';
-  src: url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBlkCn.eot');
-  src: url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBlkCn.eot?#iefix')
-      format('embedded-opentype'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBlkCn.woff2')
-      format('woff2'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBlkCn.woff')
-      format('woff'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-BlkCn.ttf')
-      format('truetype'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-BlkCn.svg#Helvetica Neue LT Pro')
-      format('svg');
+  font-family: "HelveticaNeueLTProBlkCn";
+  src: url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBlkCn.eot");
+  src: url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProBlkCn.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProBlkCn.woff2")
+      format("woff2"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProBlkCn.woff")
+      format("woff"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-BlkCn.ttf")
+      format("truetype"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-BlkCn.svg#Helvetica Neue LT Pro")
+      format("svg");
 }
 @font-face {
-  font-family: 'HelveticaNeueLTProCn';
-  src: url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProCn.eot');
-  src: url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProCn.eot?#iefix')
-      format('embedded-opentype'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProCn.woff2')
-      format('woff2'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProCn.woff')
-      format('woff'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-Cn.ttf')
-      format('truetype'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-Cn.svg#Helvetica Neue LT Pro')
-      format('svg');
+  font-family: "HelveticaNeueLTProCn";
+  src: url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProCn.eot");
+  src: url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProCn.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProCn.woff2")
+      format("woff2"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProCn.woff")
+      format("woff"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-Cn.ttf")
+      format("truetype"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-Cn.svg#Helvetica Neue LT Pro")
+      format("svg");
 }
 @font-face {
-  font-family: 'HelveticaNeueLTProMd';
-  src: url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMd.eot');
-  src: url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMd.eot?#iefix')
-      format('embedded-opentype'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProMd.woff2')
-      format('woff2'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProMd.woff')
-      format('woff'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-Md.ttf')
-      format('truetype'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-Md.svg#Helvetica Neue LT Pro')
-      format('svg');
+  font-family: "HelveticaNeueLTProMd";
+  src: url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMd.eot");
+  src: url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMd.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProMd.woff2")
+      format("woff2"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProMd.woff")
+      format("woff"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-Md.ttf")
+      format("truetype"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-Md.svg#Helvetica Neue LT Pro")
+      format("svg");
 }
 @font-face {
-  font-family: 'HelveticaNeueLTProMdCn';
-  src: url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMdCn.eot');
-  src: url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMdCn.eot?#iefix')
-      format('embedded-opentype'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProMdCn.woff2')
-      format('woff2'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProMdCn.woff')
-      format('woff'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-MdCn.ttf')
-      format('truetype'),
-    url('../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-MdCn.svg#Helvetica Neue LT Pro')
-      format('svg');
+  font-family: "HelveticaNeueLTProMdCn";
+  src: url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMdCn.eot");
+  src: url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/eot/HelveticaNeueLTProMdCn.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff2/HelveticaNeueLTProMdCn.woff2")
+      format("woff2"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/woff/HelveticaNeueLTProMdCn.woff")
+      format("woff"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/ttf/HelveticaNeueLTPro-MdCn.ttf")
+      format("truetype"),
+    url("../src/assets/fonts/ClubRare Fonts - HelveticaNeueLTPro/svg/HelveticaNeueLTPro-MdCn.svg#Helvetica Neue LT Pro")
+      format("svg");
 }
 
 @font-face {
   font-family: PF Din Text Comp Pro;
   src: url("../src//assets//fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light.ttf");
 }
-body {
-  font-family: 'HelveticaNeueLTProBd', Helvetica Neue LT Pro;
-}
-.agov_wrapper{
-  width: 80%;
-  margin: auto;
 
+@font-face {
+  font-family: "PFDinTextPro-Regular";
+  src: url("../src/assets/fonts/PFDinTextPro/ttf/PFDinTextPro-Regular.ttf")
+    format("ttf");
 }
+
+body {
+  font-family: "HelveticaNeueLTProBd", Helvetica Neue LT Pro;
+}
+.bg_image {
+  background-image: url("../src/assets/images/header_bg.png"),
+    radial-gradient(50% 50% at 88% 27%, #ea61d7 0%, rgba(234, 97, 215, 0) 100%);
+  background-position: top right, top right;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.footer_img {
+  background-image: url("../src/assets/images/footer_bg.png");
+  background-position: 0;
+  background-size: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 21rem;
+  background-repeat: no-repeat;
+}
+
+/* 1024 */
+@media only screen and (max-width: 1199px) {
+  .bg_image {
+    background-size: 100% 76%;
+  }
+}
+
+@media only screen and (max-width: 649px) {
+  .footer_img {
+    background-image: none;
+  }
+}
+
+/* 980 */
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (max-width: 979px) {
+} /* 768 */
+
+@media only screen and (max-width: 768px) {
+  .bg_image {
+    background-image: url("../src/assets/images/bg.png"),
+      radial-gradient(
+        50% 50% at 88% 27%,
+        #ea61d7 0%,
+        rgba(234, 97, 215, 0) 100%
+      );
+
+    background-position: top right, top right;
+    background-size: 100% 66%;
+    background-repeat: no-repeat;
+  }
+
+  .footer_img {
+    background-image: url("../src/assets/images/footer1.png");
+    background-size: 100% 100%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+  }
+} /* 650 */
+
+@media only screen and (max-width: 479px) {
+} /* 375 */

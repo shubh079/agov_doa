@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-import twitter from "../../../assets/images/twitter.png";
+import twitter from "../../../assets/images/twitter.svg";
 import discord from "../../../assets/images/discord.png";
 import dis1 from "../../../assets/images/dis1.png";
 import twit1 from "../../../assets/images/twit1.png";
@@ -17,7 +17,7 @@ const Footer = () => {
               <picture>
                 <source media="(max-width:768px)" srcSet={twit1} />
                 <source media="(min-width:769px)" srcSet={twitter}  />
-                <img src={twit1} alt="icon" />
+                <img src={twitter} alt="icon" />
               </picture>
 
             </div>

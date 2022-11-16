@@ -40,7 +40,7 @@ const BuyToken = () => {
 
           <div className="glassmorphism">
             <div className="row g-0">
-              <div className="col-lg-6 col-12 d-flex justify-content-center align-items-center flex-column gap_mobile">
+              <div className="col-lg-6 col-12 d-flex justify-content-center align-items-center flex-column gap_mobile ">
                 <img src={uniswap} alt="image" />
                 <button className="uniswap_btn">
                   <span className="text_uniswap_btn">

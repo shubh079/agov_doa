@@ -5,7 +5,6 @@
 
       .twitter,
       .discord {
-        height: 100%;
         display: flex;
 
         .text {
@@ -62,7 +61,6 @@
 
       .discord {
         background-color: #5865f2;
-        height: 100%;
       }
     }
   }
@@ -76,6 +74,12 @@
 @media only screen and (max-width: 768px) {
   .footer_wrapper {
     background: url("../../../assets/images/footer1.png");
+  
+        background-position: left top;
+   
+        background-repeat: no-repeat;
+        padding-top: 150px;
+        background-size: 100%;
     .container-fluid {
       .row {
         .twitter,
@@ -84,14 +88,24 @@
             picture {
               img {
                 width: auto;
-                height: 50%;
+                height: 70%;
+                margin-top: 1rem;
               }
             }
           }
         }
 
         .twitter {
-          flex-direction: column;
+          flex-direction: row;
+          .image {
+            picture {
+              img {
+                width: auto;
+                height: 70%;
+                margin-top: 1rem;
+              }
+            }
+          }
 
 
         .text{
@@ -100,9 +114,9 @@
               // justify-content: flex-end;
             flex-direction: column-reverse;
             justify-content: flex-start;
-            align-items: flex-end;
+            // align-items: flex-end;
             width: 100%;
-            padding: 0 59px;
+            padding: 0 30px 0 0;
 
             span{
                 margin-top: unset;
@@ -121,16 +135,15 @@
             // justify-content: flex-end;
             flex-direction: column-reverse;
             justify-content: flex-start;
-            align-items: flex-end;
+            // align-items: flex-end;
             width: 100%;
-            padding: 0 59px;
+            padding: 0 30px 0 0;
 
             span{
                 margin-top: unset;
             }
         }
             .image{
-                width: 100%;
                 picture{
                     img{
                     
@@ -143,3 +156,23 @@
     }
   }
 }
+
+@media only screen and (max-width: 375px) {
+
+  .footer_wrapper {
+    .container-fluid {
+      .row {
+        .twitter {
+          .text {
+            width: 0;
+            margin-left: 6rem;
+            div{
+              padding: 2px 30px;
+            }
+          }
+
+        }
+      }
+    }
+  }
+} 

@@ -162,16 +162,19 @@
     }
 
     .roadmap_line_image {
-      padding: 0 27px;
+      padding: 0 15px;
       .roadmap_image {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-color: #fff;
+        background-color: #ffffff00;
         border: 0;
+        gap: 0;
         .img_roadmap_mobile {
           display: block;
+          width: 100px;
+          height: auto;
         }
         .container {
           border-radius: 18px;
@@ -187,7 +190,7 @@
         &:nth-child(7),
         &:nth-child(8) {
           position: unset;
-          width: 88%;
+          width: 100%;
           overflow: hidden;
           margin-left: auto;
         }

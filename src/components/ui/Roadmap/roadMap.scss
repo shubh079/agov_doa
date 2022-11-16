@@ -30,13 +30,13 @@
       &:nth-child(1) {
         color: #000000;
         position: absolute;
-        top: 201rem;
+        top: 196rem;
         right: 36rem;
       }
 
       &:nth-child(2) {
         position: absolute;
-        top: 206rem;
+        top: 202rem;
         right: 7rem;
         color: #000000;
       }
@@ -44,7 +44,7 @@
       &:nth-child(3) {
         color: #000000;
         position: absolute;
-        top: 210rem;
+        top: 206rem;
         right: 41rem;
         width: 20%;
         height: auto;
@@ -55,7 +55,7 @@
       &:nth-child(4) {
         color: #000000;
         position: absolute;
-        top: 216rem;
+        top: 212rem;
         right: 10rem;
         width: 20%;
         height: auto;
@@ -64,7 +64,7 @@
       &:nth-child(5) {
         color: #000000;
         position: absolute;
-        top: 218rem;
+        top: 216rem;
         right: 50rem;
         width: 20%;
         height: auto;
@@ -73,7 +73,7 @@
       &:nth-child(6) {
         color: #000000;
         position: absolute;
-        top: 228rem;
+        top: 224rem;
         right: 30rem;
         width: 20%;
         height: auto;
@@ -82,7 +82,7 @@
       &:nth-child(7) {
         color: #000000;
         position: absolute;
-        top: 241rem;
+        top: 237rem;
         right: 23rem;
         width: 20%;
         height: auto;
@@ -91,7 +91,7 @@
       &:nth-child(8) {
         color: #000000;
         position: absolute;
-        top: 252rem;
+        top: 247rem;
         right: 43rem;
         width: 20%;
         height: auto;
@@ -152,7 +152,7 @@
     background-color: #fff;
     background-repeat: no-repeat;
     background-position: top right;
-    
+
     .bigDevice {
       display: none;
     }
@@ -178,7 +178,7 @@
         }
         .container {
           border-radius: 18px;
-          background-color: #ddd;
+          background-color: #f7f7f7;
           padding: 27px;
         }
         &:nth-child(1),
@@ -340,35 +340,35 @@
     .roadmap_line_image {
       .roadmap_image {
         &:nth-child(1) {
-          top: 194rem;
+          top: 187rem;
           right: 27rem;
         }
         &:nth-child(2) {
-          top: 196rem;
+          top: 190rem;
           right: 5rem;
         }
         &:nth-child(3) {
-          top: 200rem;
+          top: 193rem;
           right: 31rem;
         }
         &:nth-child(4) {
-          top: 204rem;
+          top: 197rem;
           right: 8rem;
         }
         &:nth-child(5) {
-          top: 206rem;
+          top: 199rem;
           right: 38rem;
         }
         &:nth-child(6) {
-          top: 210rem;
+          top: 205rem;
           right: 23rem;
         }
         &:nth-child(7) {
-          top: 224rem;
+          top: 219rem;
           right: 18rem;
         }
         &:nth-child(8) {
-          top: 229rem;
+          top: 221rem;
           right: 33rem;
         }
       }

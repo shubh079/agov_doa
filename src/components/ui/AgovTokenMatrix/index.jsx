@@ -11,12 +11,8 @@ const AgovTokenMatrix = () => {
         <div className="img1">
           <div className="radial1">
             <picture>
-                <source media="(min-width: 768px)" srcset={radial1}/>
-              <img
-                src={''}
-                style={{ width: "auto", height: "13rem" }}
-                alt=""
-              />
+              <source media="(min-width: 768px)" srcset={radial1} />
+              <img src={""} style={{ width: "auto", height: "13rem" }} alt="" />
             </picture>
           </div>
           <div className="radial2">

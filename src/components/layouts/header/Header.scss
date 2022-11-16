@@ -1,10 +1,15 @@
-
-
 .header-wrapper {
-  
-  
-
   nav {
+    .container {
+      .nav_margin {
+        .added_btn {
+          display: none;
+        }
+      }
+    }
+    .nav_margin {
+      margin-right: 2rem;
+    }
     .link_agov_logo {
       gap: 25px;
       display: flex;
@@ -12,16 +17,14 @@
       align-items: center;
       .img_agov {
         height: 57px;
-        left: 12.92%;
-        right: 83.33%;
-        top: 34.93px;
+        width: auto;
       }
 
       .text_agov {
         height: 53px;
         left: 349px;
         top: 47px;
-        font-family: 'HelveticaNeueLTProBlkCn';
+        font-family: "HelveticaNeueLTProBlkCn";
         font-style: normal;
         font-weight: 900;
         font-size: 32px;
@@ -30,7 +33,7 @@
       }
     }
 
-    .nav-item{
+    .nav-item {
       display: flex;
       align-items: center;
       padding: 10px;
@@ -38,18 +41,19 @@
       font-size: 17px;
     }
 
-    .nav-link{
+    .nav-link {
       color: white;
     }
 
     .metamask_connect_btn {
+      border: none;
       border-radius: 10px;
       padding: 14px 20px 10px;
       gap: 20px;
       justify-content: center;
       align-items: center;
       height: 54px;
-    
+
       left: 1418px;
       top: 30px;
       display: flex;
@@ -59,3 +63,75 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .header-wrapper {
+    nav {
+      .nav_link{
+        font-family: 'Rubik';
+      }
+      .container {
+        .meta {
+        }
+        .nav_margin {
+
+          background: radial-gradient(52% 155% at 18% -39%, #EA61D7 0%, rgba(234, 97, 215, 0) 100%);
+
+          
+        
+
+
+          .added_btn {
+            display: block;
+            margin-top: 4rem;
+
+            .twit_connect_btn {
+
+              border: none;
+              background: #55acee;
+              display: flex;
+              flex-direction: row;
+              color:  #FFFFFF;
+              justify-content: center;
+              font-family: "HelveticaNeueLTProBdCn";
+              align-items: center;
+              // padding: 20px 30px 17px;
+              gap: 11px;
+              width: 160px;
+              height: 52px;
+              border-radius: 10px;
+            }
+            .dis_connect_btn {
+
+              border: none;
+              background: #5865f2;
+              display: flex;
+              color:  #FFFFFF;
+              font-family: "HelveticaNeueLTProBdCn";
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              // padding: 20px 30px 17px;
+              gap: 11px;
+              width: 160px;
+              height: 52px;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+    }
+  } /* 650 */
+}
+
+@media only screen and (max-width:320px) {
+  .header-wrapper {
+    nav {
+    .link_agov_logo{
+      height: auto;
+      width: 20%;
+    }
+
+
+    }
+}
+}

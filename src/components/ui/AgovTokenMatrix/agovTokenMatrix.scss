@@ -1,176 +1,141 @@
+.tokenmatrix_wrp {
+  background: radial-gradient(
+    85% 40% at 10% 67%,
+    #7c65db 0%,
+    rgba(157, 97, 234, 0) 100%
+  );
+  padding-bottom: 6em;
 
+  .container {
+    .img1 {
+      display: flex;
+      justify-content: space-between;
 
-  .tokenmatrix_wrp{
+      .radial2 {
+        border: 0.5px solid rgba(79, 0, 222, 0.29);
+      }
+    }
+    .row {
+      justify-content: center;
+      text-align: center;
+      margin-top: -205px;
 
-    background: radial-gradient(85% 40% at 10% 67%, #7c65db 0%, rgba(157, 97, 234, 0) 100%);
-    padding-bottom: 6em;
-
-    .container{
-                 
-        .img1{
-            display: flex;
-            justify-content: space-between;
-      
-
-        .radial2{
-
-            border: 0.5px solid rgba(79, 0, 222, 0.29);
-
-      
-         }
-
-        }
-        .row{
-             justify-content: center;
-             text-align: center;
-             margin-top: -205px;
-             
-            .token_matrix{
-                font-family: "HelveticaNeueLTProBlkCn";
-                font-style: normal;
-                font-weight: 900;
-                font-size: 30px;
-                line-height: 500%;
-                text-transform: uppercase;
-                color: #FFFFFF;   
-            }
-
-        }
-        .liquidity{
-
-            padding-top: 1em;
-            display: inline-block;
-            font-family: 'Rubik';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 30px;
-            line-height: 140%;
-            text-align: center;
-            text-transform: uppercase;
-            color: #4F00DE;
-        }
-        .sale{
-
-            font-family: 'Rubik';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 22.5556px;
-            line-height: 140%;
-            text-align: center;
-            text-transform: uppercase;
-            color: #ACACAC;
-        }
-        .chart{
-            margin-top: 70px;
-        }
+      .token_matrix {
+        font-family: "HelveticaNeueLTProBlkCn";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 500%;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+    .liquidity {
+      padding-top: 1em;
+      display: inline-block;
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 140%;
+      text-align: center;
+      text-transform: uppercase;
+      color: #4f00de;
+    }
+    .sale {
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22.5556px;
+      line-height: 140%;
+      text-align: center;
+      text-transform: uppercase;
+      color: #acacac;
+    }
+    .chart {
+      margin-top: 70px;
     }
   }
+}
 
 /* 480 */
-  @media only screen and (max-width: 649px) {
-  
-    .tokenmatrix_wrp{
-
-
-    background: radial-gradient(71% 85% at 19% 107%, #7c65db 0%, rgba(157, 97, 234, 0) 100%);
+@media only screen and (max-width: 649px) {
+  .tokenmatrix_wrp {
+    background: radial-gradient(
+      71% 85% at 19% 107%,
+      #7c65db 0%,
+      rgba(157, 97, 234, 0) 100%
+    );
     padding-bottom: 6em;
 
-        .container{
+    .container {
+      .chart {
+        text-align: left;
+      }
 
-            .chart{
-
-                text-align: left;
-            }
-
-           .radial2{
-                
-            img{
-                position: absolute;
-                top: 97rem;
-                left: 13rem;
-                height: auto;
-                width: 35%
-            }
-
-           }
-
-           .row{
-            
-            justify-content: center;
-            text-align: center;
-            margin-top: 15px;
-
-           }
+      .radial2 {
+        img {
+          position: absolute;
+          top: 97rem;
+          left: 13rem;
+          height: auto;
+          width: 35%;
         }
+      }
 
+      .row {
+        justify-content: center;
+        text-align: center;
+        margin-top: 15px;
+      }
     }
-
-} 
+  }
+}
 
 /* 1024 */
 @media only screen and (max-width: 1199px) {
-    .tokenmatrix_wrp{
-
-        .container{
-
-        }
+  .tokenmatrix_wrp {
+    .container {
     }
-} 
+  }
+}
 
 /* 980 */
 @media only screen and (max-width: 1023px) {
-
-    .tokenmatrix_wrp{
-
-        .container{
-            
-        }
+  .tokenmatrix_wrp {
+    .container {
     }
-} 
+  }
+}
 
 /* 768 */
 @media only screen and (max-width: 979px) {
-
-    .tokenmatrix_wrp{
-
-        .container{
-
-            
-        }
+  .tokenmatrix_wrp {
+    .container {
     }
-} 
+  }
+}
 
 /* 650 */
 @media only screen and (max-width: 768px) {
-
-    .tokenmatrix_wrp{
-
-        .container{
-
-
-            
-        }
+  .tokenmatrix_wrp {
+    .container {
     }
-} 
+  }
+}
 
 /* 375 */
 @media only screen and (max-width: 479px) {
-
-    .tokenmatrix_wrp{
-
-        .container{
-            
-        }
+  .tokenmatrix_wrp {
+    .container {
     }
-} 
+  }
+}
 
 /* 320 */
 @media only screen and (max-width: 374px) {
-
-    .tokenmatrix_wrp{
-
-        .container{
-            
-        }
+  .tokenmatrix_wrp {
+    .container {
     }
-} 
+  }
+}

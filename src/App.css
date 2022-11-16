@@ -103,7 +103,8 @@ body {
   background-image: url("../src/assets/images/header_bg.png"),
     radial-gradient(50% 50% at 88% 27%, #ea61d7 0%, rgba(234, 97, 215, 0) 100%);
   background-position: top right, top right;
-  background-size: 100% auto;
+  /* background-size: 100% auto; */
+  background-size: 100% 76%;
   background-repeat: no-repeat;
 }
 
@@ -141,7 +142,5 @@ body {
 
   .footer_img {
     background-image: none;
-   
   }
 }
-

@@ -54,11 +54,7 @@ const Roadmap = () => {
 
       <picture className="bigDevice">
         <source media="(min-width:768px)" srcset={roadmap_bg} />
-        <img
-          src={""}
-          className="img_roadmap"
-          alt="img"
-        />
+        <img src={""} className="img_roadmap" alt="img" />
       </picture>
 
       {/* <img src= {roadmap_bg} className = "img_roadmap" alt = "icon"/> */}
@@ -75,12 +71,10 @@ const Roadmap = () => {
             </div> */}
 
       <div className="roadmap_line_image">
-      
         <RoadmapCardSection
           className="roadmap_image"
           heading={"2021 1Q"}
           data={data1}
-         
         />
         <RoadmapCardSection
           className="roadmap_image"

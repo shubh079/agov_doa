@@ -70,7 +70,7 @@
         }
       }
       .btn_buynow {
-
+        border: none;
         height: auto;
         width: 20%;
         margin-top: 50px;
@@ -107,19 +107,25 @@
           border-radius: 19px;
           padding: 44px;
 
-          .gap_mobile{
+          .gap_mobile {
             gap: 1rem;
+
+            img{
+              height: auto;
+              width: 50%;
+            }
+
           }
-          
         }
 
         .uniswap_btn {
+          border: none;
           display: flex;
           flex-direction: row;
           align-items: flex-start;
-          padding: 20px 40px;
+          padding: 13px 40px;
           gap: 10px;
-          height: 68px;
+          
           background: #eb63d9;
           border-radius: 10px;
 
@@ -136,11 +142,13 @@
           }
         }
         .etherson_btn {
+          border: none;
           display: flex;
           flex-direction: row;
           align-items: flex-start;
-          padding: 20px 40px;
+          padding: 13px 40px;
           gap: 10px;
+          
           background: #eb63d9;
           border-radius: 10px;
 
@@ -158,6 +166,7 @@
       }
 
       .supply {
+        gap: 2rem;
         padding-top: 3%;
         display: flex;
         flex-direction: column;
@@ -171,7 +180,7 @@
           font-family: "Rubik";
           font-style: normal;
           font-weight: 500;
-          font-size: 25.1871px;
+          font-size: 18px;
           line-height: 140%;
           text-align: center;
           text-transform: uppercase;
@@ -186,7 +195,7 @@
           font-family: "HelveticaNeueLTProBlkCn";
           font-style: normal;
           font-weight: 900;
-          font-size: 64px;
+          font-size: 55px;
           line-height: 140%;
           text-align: center;
           text-transform: uppercase;
@@ -200,7 +209,7 @@
             font-family: "Rubik";
             font-style: normal;
             font-weight: 500;
-            font-size: 25.1871px;
+            font-size: 18px;
             line-height: 140%;
             text-align: center;
             text-transform: uppercase;
@@ -215,7 +224,7 @@
           font-family: "HelveticaNeueLTProBlkCn";
           font-style: normal;
           font-weight: 900;
-          font-size: 75.5614px;
+          font-size: 55px;
           line-height: 140%;
           /* identical to box height, or 106px */
 
@@ -275,45 +284,37 @@
     background: url("../../../assets/images/buy_bg.png");
     background-size: 100% 80%;
     background-repeat: no-repeat;
- 
+
     .container {
       .row {
         .glassmorphism {
           .uniswap_btn {
-             
             display: flex;
             flex-direction: row;
             align-items: center;
             padding: 0px 20px;
-
           }
 
-          .row{
-
+          .row {
             gap: 30px;
 
-            .gap_mobile{
+            .gap_mobile {
               gap: 20px;
-
             }
 
-            img{
+            img {
               height: auto;
               width: 100%;
-              
             }
-
-
           }
         }
 
-        .supply{
-
+        .supply {
           gap: 25px;
-          .total_num{
+          .total_num {
             font-size: 40px;
           }
-          .tot_num{
+          .tot_num {
             font-size: 40px;
           }
         }
@@ -323,20 +324,29 @@
 }
 
 @media only screen and (max-width: 375px) {
-
-  .buytoken_wrp{
+  .buytoken_wrp {
     .container {
-      .row{
-
+      .row {
         .btn_buynow {
           width: 50%;
         }
+      }
+    }
+  }
+}
 
+@media only screen and (max-width: 1199px) {
+  .utility_wrp{
+    .container {
+      .row{
+        .txt{
+
+          font-size: 14px;
+        }
 
       } 
 
     }
- 
-  }
-  
+
+  } 
 }

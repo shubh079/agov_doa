@@ -31,6 +31,8 @@
       }
     }
     .liquidity {
+     
+     
       padding-top: 1em;
       display: inline-block;
       font-family: "Rubik";
@@ -41,6 +43,17 @@
       text-align: center;
       text-transform: uppercase;
       color: #4f00de;
+
+      h5{
+        background: linear-gradient(
+          292deg,
+          #ccbbff 0%,
+          #7427ff 39.08%,
+          #00baff 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     }
     .sale {
       font-family: "Rubik";

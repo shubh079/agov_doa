@@ -88,12 +88,21 @@
 @font-face {
   font-family: PF Din Text Comp Pro;
   src: url("../src//assets//fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light.ttf");
+  
+  
 }
 
 @font-face {
   font-family: "PFDinTextPro-Regular";
   src: url("../src/assets/fonts/PFDinTextPro/ttf/PFDinTextPro-Regular.ttf")
     format("ttf");
+}
+
+@font-face {
+  font-family: "PFDinTextPro-Bold";
+  src: url("../src/assets/fonts/PFDinTextPro/ttf/PFDinTextPro-Bold.ttf")
+      format("ttf"),
+   
 }
 
 body {

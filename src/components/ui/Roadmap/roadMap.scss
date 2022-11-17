@@ -1,11 +1,12 @@
 .roadmap_wrp {
-    background-image: url('../../../assets/images//roadmap_bg1.webp');
+  background-image: url("../../../assets/images//roadmap_bg1.webp");
   background-repeat: no-repeat;
   background-color: #fff;
   overflow: hidden;
   width: 100%;
   height: 71rem;
-    background-size: cover;
+  background-size: cover;
+  position: relative;
 
   .roadmap_line_image {
     img {
@@ -14,7 +15,6 @@
     }
 
     .roadmap_image {
-
       border: none;
       padding: 12px 8px;
       gap: 26px;
@@ -33,22 +33,22 @@
       &:nth-child(1) {
         color: #000000;
         position: absolute;
-        top: 193rem;
-        right: 41rem;
+        top: 17%;
+        right: 48%;
       }
 
       &:nth-child(2) {
         position: absolute;
-        top: 198rem;
-        right: 19rem;
+        top: 23%;
+        right: 19%;
         color: #000000;
       }
 
       &:nth-child(3) {
         color: #000000;
         position: absolute;
-        top: 201rem;
-        right: 45rem;
+        top: 27%;
+        right: 54%;
         // width: 13%;
         // height: auto;
 
@@ -58,8 +58,8 @@
       &:nth-child(4) {
         color: #000000;
         position: absolute;
-        top: 206rem;
-        right: 21rem;
+        top: 35%;
+        right: 25%;
         // width: 20%;
         // height: auto;
       }
@@ -67,8 +67,8 @@
       &:nth-child(5) {
         color: #000000;
         position: absolute;
-        top: 208rem;
-        right: 53rem;
+        top: 36%;
+        right: 63%;
         // width: 20%;
         // height: auto;
       }
@@ -76,8 +76,8 @@
       &:nth-child(6) {
         color: #000000;
         position: absolute;
-        top: 217rem;
-        right: 34rem;
+        top: 51%;
+        right: 40%;
         width: 20%;
         height: auto;
       }
@@ -85,8 +85,8 @@
       &:nth-child(7) {
         color: #000000;
         position: absolute;
-        top: 231rem;
-        right: 27rem;
+        top: 67%;
+        right: 31%;
         width: 20%;
         height: auto;
       }
@@ -94,8 +94,8 @@
       &:nth-child(8) {
         color: #000000;
         position: absolute;
-        top: 239rem;
-        right: 48rem;
+        top: 81%;
+        right: 57%;
         width: 23%;
         height: auto;
       }
@@ -336,14 +336,13 @@
 /* 980 */
 @media only screen and (max-width: 1199px) {
   .roadmap_wrp {
-
-    background-image: url('../../../assets/images//roadmap_bg1.webp');
+    background-image: url("../../../assets/images//roadmap_bg1.webp");
     background-repeat: no-repeat;
     background-color: #fff;
     overflow: hidden;
     width: 100%;
     height: 58rem;
-      background-size: cover;
+    background-size: cover;
 
     .roadmap_container {
       margin-top: 30px;

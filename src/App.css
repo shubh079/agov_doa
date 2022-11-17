@@ -101,7 +101,7 @@ body {
 }
 .bg_image {
   background-image: url("../src/assets/images/header_bg.png"),
-    radial-gradient(50% 50% at 88% 27%, #ea61d7 0%, rgba(234, 97, 215, 0) 100%);
+    radial-gradient(69% 72% at 92% 28%, #ea61d7 0%, rgba(234, 97, 215, 0) 100%);
   background-position: top right, top right;
   /* background-size: 100% auto; */
   background-size: 100% 76%;
@@ -115,7 +115,7 @@ body {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  gap: 20rem;
   background-repeat: no-repeat;
 }
 

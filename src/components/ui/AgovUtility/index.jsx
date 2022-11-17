@@ -9,24 +9,24 @@ const AgovUtility = () => {
           <div className="col-lg-4 col-12">
             <h1 className="heading">MAKE DECISIONS</h1>
             <p className="txt">
-              With AGOV, the community votes on treasury spending, determines
-              policies and brand partnerships, and can trade exclusive NFTs.
+              With AGOV, the community votes on<br/> treasury spending, determines
+              policies<br/> and brand partnerships, and can trade<br/> exclusive NFTs.
             </p>
           </div>
 
           <div className="col-lg-4 col-12">
             <h1 className="heading">MAKE A DIFFERENCE</h1>
             <p className="txt">
-              ClubRare believes in an open metaverse governed by community. With
-              AGOV, DAO members shape the future of web3.
+              ClubRare believes in an open metaverse<br/> governed by community. With
+              AGOV, DAO<br/> members shape the future of web3.
             </p>
           </div>
 
           <div className="col-lg-4 col-12">
             <h1 className="heading">MAKE THE UNIVERSE</h1>
             <p className="txt">
-              Steered by the DAO, ClubRare is creating a community-led commerce
-              ecosystem blending physical goods with experience-rich metaverse
+              Steered by the DAO, ClubRare is creating a<br/> community-led commerce
+              ecosystem<br/> blending physical goods with experience<br/>-rich metaverse
               goods and NFTs: ClubRare Universe.
             </p>
           </div>

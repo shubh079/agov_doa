@@ -19,16 +19,15 @@ const BuyToken = () => {
             </div>
             <div className="sub_heading">
               <h6>
-                Fair Start • Fair Development • Shared Profit and Governance •
-                Sustainable Economy
+              GOVERNANCE TOKEN FOR PHYGITAL CREATORS AND FUTURE OF E-COMMERCE,<br/> BENEFITS THROUGH GOVERNANCE OPERATIONS, SUSTAINABLE TOKEN ECONOMY
               </h6>
             </div>
             <div className="paragraph">
               <p>
                 AGOV is a ClubRare governance token, the future of commerce.
-                Through AGOV, the community is empowered to vote to determine
-                ClubRare's major policies and brand partnerships and can trade
-                exclusive Phygital NFTs at ClubRare. AGOV stands for “Answer
+                Through AGOV, the <br/> community is empowered to vote to determine
+                ClubRare's major policies and brand<br/> partnerships and can trade
+                exclusive Phygital NFTs at ClubRare. AGOV stands for “Answer<br/>
                 Governance”. For ClubRare, there was never any other answer.
               </p>
             </div>
@@ -91,11 +90,11 @@ const BuyToken = () => {
           <div className="governance_para">
             <p>
               By working with creators and collectors to innovate in the
-              collector economy, everyone is rewarded. AGOV DAO will be the
+              collector economy, everyone is rewarded. AGOV DAO will<br/> be the
               accelerator for Phygital NFT Creators. ClubRare is building the
-              future of the collector-oriented economy with the Phygital NFT and
+              future of the collector-oriented economy with<br/> the Phygital NFT and
               AGOV DAO members will utilize treasury governance to allocate
-              funds to new creators and kickstart their productivity in ClubRare
+              funds to new creators and<br/> kickstart their productivity in ClubRare
               Universe.
             </p>
           </div>

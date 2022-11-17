@@ -13,12 +13,12 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 20px 40px;
+      padding: 0px 32px;
       font-weight: 1000;
 
       color: #ffffff;
       background: transparent;
-      height: 57px;
+      height: 45px;
       border-radius: 10px;
 
       span {
@@ -33,22 +33,24 @@
       justify-content: center;
       align-items: center;
       padding: 20px 40px;
-
       font-weight: 1000;
       color: #ffffff;
-      height: 57px;
-      border-radius: 10px;
+      height: 45px;
+      width: auto;
+      border-radius: 8px;
       background: linear-gradient(270deg, #d063eb 0%, #eb63d9 100%);
       border-radius: 10px;
     }
 
     .token_value {
       display: flex;
-      margin-top: 50px;
+      margin-top: 4rem;
       gap: 30px;
+      word-break: break-all;
 
       .value {
         font-family: "Rubik";
+        font-size: 12px;
       }
 
       .token_num {
@@ -73,6 +75,7 @@
       margin-top: 57px;
       // height: 300px;
       .text_future_commerce {
+        line-height: 47px;
         font-family: "HelveticaNeueLTProBlkCn";
         font-style: normal;
         font-weight: 900;
@@ -90,27 +93,34 @@
       }
       .etherum_img {
         width: 50%;
-        margin-top: -85px;
+        margin-top: -4rem;
         height: auto;
-        margin-left: 45%;
+        margin-left: 11rem;
       }
       .btn_etherum {
-        font-family: "PF Din Text Comp Pro";
-        margin-left: 131px;
-        .btn_eth {
-          border: none;
-          display: block;
-          padding: 7px 25px 5px;
-          background: linear-gradient(90deg, #000000 0%, #4c2d8d 100%);
-          border-radius: 80px;
-        }
-        .btn_agov {
-          border: none;
-          padding: 6px 16px 4px;
-          background: linear-gradient(90deg, #000000 0%, #4c2d8d 100%);
-          border-radius: 80px;
-          margin-left: -20px;
-          margin-top: 4px;
+        font-family: "rubik";
+        margin-left: 115px;
+        position: relative;
+        z-index: 2;
+
+        button {
+          padding: 3px 8px;
+          font-size: 13px;
+          &.btn_eth {
+            border: none;
+            display: block;
+
+            background: linear-gradient(90deg, #000000 0%, #4c2d8d 100%);
+            border-radius: 80px;
+          }
+          &.btn_agov {
+            border: none;
+
+            background: linear-gradient(90deg, #000000 0%, #4c2d8d 100%);
+            border-radius: 80px;
+            margin-left: -16px;
+            margin-top: 6px;
+          }
         }
       }
       .line {

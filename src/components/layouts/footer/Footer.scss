@@ -1,18 +1,38 @@
 .footer_wrapper {
   .container-fluid {
+    height: 15rem;
+    overflow: hidden;
     .row {
       height: 100%;
 
       .twitter,
       .discord {
         display: flex;
+        height: inherit;
+
+        .image {
+          height: inherit;
+          display: flex;
+          align-items: flex-end;
+
+          picture {
+            display: flex;
+            height: inherit;
+           
+
+            img {
+              height: 88%;
+            }
+          }
+        }
 
         .text {
           width: 50%;
           display: flex;
           justify-content: space-between;
           flex-direction: column;
-          align-items: center;
+          align-items: flex-end;
+          padding-right: 50px;
           font-family: "Rubik";
 
           span {
@@ -34,7 +54,7 @@
             background: white;
             font-family: "PF Din Text Comp Pro";
             font-style: normal;
-            font-weight: 700;
+            font-weight: 900;
             font-size: 15px;
             line-height: 140%;
             text-transform: uppercase;
@@ -46,7 +66,7 @@
             background: white;
             font-family: "PF Din Text Comp Pro";
             font-style: normal;
-            font-weight: 700;
+            font-weight: 900;
             font-size: 15px;
             line-height: 140%;
             text-transform: uppercase;
@@ -57,29 +77,45 @@
 
       .twitter {
         background-color: #55acee;
+        justify-content: space-between;
+        picture {
+        
+          align-items: flex-end;
+        }
       }
 
       .discord {
         background-color: #5865f2;
-        .image{
+        justify-content: space-between;
+        .image {
           margin-left: 1rem;
         }
 
+        .text{
+
+          align-items: flex-start;
+          padding-left: 50px;
+        }
       }
     }
   }
 
   .copyright {
+
+    background: url("../../../assets/images/copyright_bg.png");
+    background-position: 39% 91%;
+    color: white;
+    background-repeat: no-repeat;
     width: auto;
     height: 100%;
     display: flex;
     justify-content: center;
-    color: #000000;
     font-family: "Rubik";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 75px;
+    font-size: 14px;
+    // line-height: 75px;
+    padding: 50px;
   }
 }
 
@@ -136,8 +172,8 @@
 
         .discord {
           flex-direction: row-reverse;
-          .image{
-              margin-left: -1rem;
+          .image {
+            margin-left: -1rem;
           }
 
           .text {
@@ -189,8 +225,8 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .footer_wrapper{
-    .container-fluid{
+  .footer_wrapper {
+    .container-fluid {
       .row {
         .discord {
           .image {
@@ -198,8 +234,6 @@
           }
         }
       }
-
     }
-
-  } 
+  }
 }

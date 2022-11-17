@@ -45,17 +45,17 @@ const Roadmap = () => {
         <div className="subheading">
           <p>
             ARV project has a long-term and permanent infrastructure designed to
-            be integrated into the real world.Ariva Team are very happy that
+            be integrated into the real world.<br/>Ariva Team are very happy that
             they adhered strictly to roadmap and completed the tasks ahead of
-            schedule.There is always more to do, more to build.
+            schedule.<br/>There is always more to do, more to build.
           </p>
         </div>
       </div>
 
-      <picture className="bigDevice">
+      {/* <picture className="bigDevice">
         <source media="(min-width:768px)" srcset={roadmap_bg} />
         <img src={""} className="img_roadmap" alt="img" />
-      </picture>
+      </picture> */}
 
       {/* <img src= {roadmap_bg} className = "img_roadmap" alt = "icon"/> */}
       {/* <div className='roadmap_responsive'>

@@ -11,22 +11,8 @@ const HeroSection = () => {
             <span className="text_future_commerce">
               NEVER ANY OTHER ANSWER <br/> FOR THE FUTURE OF COMMERCE
             </span>
-          </div>
 
-          <div className="col-md-6">
-            <div className="btn_etherum">
-              <button className="btn_eth">
-                <span style={{ color: "#ffff" }}>1 ETH = 9 466,7622 AGOV</span>
-              </button>
-              <button className="btn_agov">
-                <span style={{ color: "#ffff" }}>1 AGOV = 0,0001 ETH</span>
-              </button>
-            </div>
-            <img src={etherum} className="etherum_img" alt="img" />
-          </div>
-        </div>
-
-        <div className="btn_commerce">
+            <div className="btn_commerce">
           <button className="metamask_connect_btn1">
             <span>JOIN AGOV DAO</span>
           </button>
@@ -56,6 +42,52 @@ const HeroSection = () => {
             <p className="value">Staked</p>
           </div>
         </div>
+
+          </div>
+
+          <div className="col-md-6">
+            <div className="btn_etherum">
+              <button className="btn_eth">
+                <span style={{ color: "#ffff" }}>1 ETH = 9 466,7622 AGOV</span>
+              </button>
+              <button className="btn_agov">
+                <span style={{ color: "#ffff" }}>1 AGOV = 0,0001 ETH</span>
+              </button>
+            </div>
+            <img src={etherum} className="etherum_img" alt="img" />
+          </div>
+        </div>
+
+        {/* <div className="btn_commerce">
+          <button className="metamask_connect_btn1">
+            <span>JOIN AGOV DAO</span>
+          </button>
+          <button className="metamask_connect_btn2">
+            <span>BUY AGOV ETH</span>
+          </button>
+        </div> */}
+
+        {/* <div className="token_value">
+          <div className="token_num">
+            <span className="num">$6.29</span>
+            <p className="value">Token Value</p>
+          </div>
+
+          <div className="token_num">
+            <span className="num">$61,0266,562</span>
+            <p className="value">Market Cap</p>
+          </div>
+
+          <div className="token_num">
+            <span className="num">$9,705,556</span>
+            <p className="value">Circulating Supply</p>
+          </div>
+
+          <div className="token_num">
+            <span className="num">$2063</span>
+            <p className="value">Staked</p>
+          </div>
+        </div> */}
 
         <div className="line">
           <svg

@@ -1,9 +1,11 @@
 .roadmap_wrp {
-  //   background-image: url('../../../assets/images//roadmap_bg.svg');
+    background-image: url('../../../assets/images//roadmap_bg1.webp');
   background-repeat: no-repeat;
   background-color: #fff;
   overflow: hidden;
   width: 100%;
+  height: 71rem;
+    background-size: cover;
 
   .roadmap_line_image {
     img {
@@ -12,13 +14,14 @@
     }
 
     .roadmap_image {
+
+      border: none;
       padding: 12px 8px;
       gap: 26px;
-      width: 18%;
+      width: 13%;
       height: auto;
       background: #f7f7f7;
       border-radius: 8px;
-
       font-family: "Rubik";
       font-style: normal;
       font-weight: 400;
@@ -30,24 +33,24 @@
       &:nth-child(1) {
         color: #000000;
         position: absolute;
-        top: 196rem;
-        right: 36rem;
+        top: 193rem;
+        right: 41rem;
       }
 
       &:nth-child(2) {
         position: absolute;
-        top: 202rem;
-        right: 7rem;
+        top: 198rem;
+        right: 19rem;
         color: #000000;
       }
 
       &:nth-child(3) {
         color: #000000;
         position: absolute;
-        top: 206rem;
-        right: 41rem;
-        width: 20%;
-        height: auto;
+        top: 201rem;
+        right: 45rem;
+        // width: 13%;
+        // height: auto;
 
         color: #000000;
       }
@@ -55,26 +58,26 @@
       &:nth-child(4) {
         color: #000000;
         position: absolute;
-        top: 212rem;
-        right: 10rem;
-        width: 20%;
-        height: auto;
+        top: 206rem;
+        right: 21rem;
+        // width: 20%;
+        // height: auto;
       }
 
       &:nth-child(5) {
         color: #000000;
         position: absolute;
-        top: 216rem;
-        right: 50rem;
-        width: 20%;
-        height: auto;
+        top: 208rem;
+        right: 53rem;
+        // width: 20%;
+        // height: auto;
       }
 
       &:nth-child(6) {
         color: #000000;
         position: absolute;
-        top: 224rem;
-        right: 30rem;
+        top: 217rem;
+        right: 34rem;
         width: 20%;
         height: auto;
       }
@@ -82,8 +85,8 @@
       &:nth-child(7) {
         color: #000000;
         position: absolute;
-        top: 237rem;
-        right: 23rem;
+        top: 231rem;
+        right: 27rem;
         width: 20%;
         height: auto;
       }
@@ -91,17 +94,17 @@
       &:nth-child(8) {
         color: #000000;
         position: absolute;
-        top: 247rem;
-        right: 43rem;
-        width: 20%;
+        top: 239rem;
+        right: 48rem;
+        width: 23%;
         height: auto;
       }
     }
   }
   .roadmap_container {
-    position: absolute;
+    // position: absolute;
 
-    margin-top: 56px;
+    margin-top: 50px;
 
     .roadmap_heading {
       display: flex;
@@ -127,7 +130,7 @@
       font-family: "Rubik";
       font-style: normal;
       font-weight: 400;
-      font-size: 16px;
+      font-size: 14px;
       line-height: 140%;
       text-align: center;
       color: #000000;
@@ -331,8 +334,17 @@
 // }
 
 /* 980 */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1199px) {
   .roadmap_wrp {
+
+    background-image: url('../../../assets/images//roadmap_bg1.webp');
+    background-repeat: no-repeat;
+    background-color: #fff;
+    overflow: hidden;
+    width: 100%;
+    height: 58rem;
+      background-size: cover;
+
     .roadmap_container {
       margin-top: 30px;
     }
@@ -340,36 +352,36 @@
     .roadmap_line_image {
       .roadmap_image {
         &:nth-child(1) {
-          top: 187rem;
-          right: 27rem;
+          top: 183rem;
+          right: 28rem;
         }
         &:nth-child(2) {
-          top: 190rem;
-          right: 5rem;
+          top: 186rem;
+          right: 6rem;
         }
         &:nth-child(3) {
-          top: 193rem;
-          right: 31rem;
+          top: 189rem;
+          right: 32rem;
         }
         &:nth-child(4) {
-          top: 197rem;
+          top: 193rem;
           right: 8rem;
         }
         &:nth-child(5) {
-          top: 199rem;
+          top: 195rem;
           right: 38rem;
         }
         &:nth-child(6) {
-          top: 205rem;
-          right: 23rem;
+          top: 200rem;
+          right: 24rem;
         }
         &:nth-child(7) {
-          top: 219rem;
+          top: 214rem;
           right: 18rem;
         }
         &:nth-child(8) {
-          top: 221rem;
-          right: 33rem;
+          top: 216rem;
+          right: 34rem;
         }
       }
     }

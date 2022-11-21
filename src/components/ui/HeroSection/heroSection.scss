@@ -15,7 +15,6 @@
       align-items: center;
       padding: 0px 32px;
       font-weight: 1000;
-
       color: #ffffff;
       background: transparent;
       height: 45px;
@@ -47,20 +46,29 @@
       margin-top: 4rem;
       gap: 30px;
       word-break: break-all;
+      padding-right: 100px;
 
       .value {
         font-family: "Rubik";
-        font-size: 12px;
+        font-size: 11px;
       }
 
       .token_num {
         color: #ffffff;
         font-family: "HelveticaNeueLTProBlkCn";
+        &:nth-child(1),
+        &:nth-child(4) {
+          width: 16%;
+        }
+        &:nth-child(2),
+        &:nth-child(3) {
+          width: 32%;
+        }
 
         .num {
           font-style: normal;
           font-weight: 900;
-          font-size: 26.5531px;
+          font-size: 20px;
           line-height: 140%;
         }
       }
@@ -138,6 +146,27 @@
 @media only screen and (max-width: 1199px) {
   .hero_Section_wrp {
     .container {
+
+      .token_value{
+        .token_num {
+          
+          &:nth-child(1),
+          &:nth-child(4) {
+            width: 16%;
+          }
+          &:nth-child(2),
+          &:nth-child(3) {
+            width: 32%;
+          }
+          .num{
+            font-size: 22px;
+          }
+      }
+
+      .value{
+        font-size: 11px;
+      }
+    }
       .row {
         .text_future_commerce {
           font-family: "HelveticaNeueLTProBlkCn";
@@ -170,72 +199,69 @@
 
 /* 480 */
 
-@media only screen and (max-width: 649px) {
-  .hero_Section_wrp {
-    .container {
-      .token_value {
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 2rem;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-      }
+// @media only screen and (max-width: 649px) {
+//   .hero_Section_wrp {
+//     .container {
+//       .token_value {
+//         display: flex;
+//         flex-wrap: wrap;
+//         column-gap: 2rem;
+//         text-align: center;
+//         align-items: center;
+//         justify-content: center;
+//       }
 
-      .row {
-        margin-top: 57px;
-        height: 300px;
+//       .row {
+//         margin-top: 57px;
+//         height: 300px;
 
-        .btn_etherum {
-          margin-left: 6rem;
-        }
-      }
-    }
-  }
-}
+//         .btn_etherum {
+//           margin-left: 6rem;
+//         }
+//       }
+//     }
+//   }
+// }
 
 /* 980 */
-@media only screen and (max-width: 1023px) {
-}
+// @media only screen and (max-width: 1023px) {
+// }
 
-@media only screen and (max-width: 979px) {
-} /* 768 */
+// @media only screen and (max-width: 768px) {
+//   .hero_Section_wrp {
+//     .container {
+//       .token_value {
+//         display: flex;
+//         flex-wrap: wrap;
+//         column-gap: 2rem;
+//         text-align: center;
+//         align-items: center;
+//         // justify-content: center;
+//       }
 
-@media only screen and (max-width: 768px) {
-  .hero_Section_wrp {
-    .container {
-      .token_value {
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 2rem;
-        text-align: center;
-        align-items: center;
-        // justify-content: center;
-      }
+//       .row {
+//         margin-top: 57px;
+//         height: 300px;
 
-      .row {
-        margin-top: 57px;
-        height: 300px;
+//         .btn_etherum {
+//           margin-left: 2rem;
+//         }
+//       }
+//     }
+//   }
+// } /* 650 */
 
-        .btn_etherum {
-          margin-left: 2rem;
-        }
-      }
-    }
-  }
-} /* 650 */
+// @media only screen and (max-width: 479px) {
+// } /* 375 */
 
-@media only screen and (max-width: 479px) {
-} /* 375 */
-
-@media only screen and (max-width: 375px) {
-  .hero_Section_wrp {
-    .container {
-      .row {
-        .btn_etherum {
-          margin-left: 1rem;
-        }
-      }
-    }
-  }
-} /* 320 */
+// @media only screen and (max-width: 375px) {
+//   .hero_Section_wrp {
+//     .container {
+//       .row {
+//         .btn_etherum {
+//           margin-left: 1rem;
+//         }
+//       }
+//     }
+//   }
+// } /* 320 */

@@ -1,6 +1,5 @@
 .buytoken_wrp {
-
-  background: url("../../../assets//images/buytoken_bg.png");
+  background: url("../../../assets/images/buytoken_bg.png");
   // background: url("../../../assets/images/header_bg1.png"),
   //   url("../../../assets/images/ring.png"),
   //   radial-gradient(59% 73% at 23% 50%, #65d6e8 0%, rgba(104, 216, 233, 0) 100%);
@@ -88,7 +87,6 @@
         border-radius: 10px;
 
         .btn_agov {
-          
           font-family: "PF Din Text Comp Pro";
           font-style: normal;
           font-weight: 700;
@@ -108,7 +106,7 @@
         border-radius: 20px;
 
         .row {
-          border: 1px solid blue;
+          border: 1px solid #7427ff;
           border-radius: 19px;
           // padding: 44px;
           padding: 65px 50px 65px 50px;
@@ -284,84 +282,115 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .buytoken_wrp {
-    background: url("../../../assets/images/buy_bg.png");
-    background-size: 100% 80%;
-    background-repeat: no-repeat;
-
-    .container {
-      .row {
-        .glassmorphism {
-          .uniswap_btn {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding: 13px 20px;
-          }
-
-          .row {
-            gap: 30px;
-
-            .gap_mobile {
-              gap: 20px;
-            }
-
-            img {
-              height: auto;
-              width: 100%;
-            }
-          }
-        }
-
-        .supply {
-          gap: 25px;
-          .total_num {
-            font-size: 40px;
-          }
-          .tot_num {
-            font-size: 40px;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .buytoken_wrp {
-    .container {
-      .row {
-        .btn_buynow {
-          width: 50%;
-        }
-      }
-    }
-  }
-}
-
 @media only screen and (max-width: 1199px) {
-  .buytoken_wrp{
-    .container{
-      .row{
-        .glassmorphism {
-
-          width: auto;
-
-          .uniswap_btn{
-
-            padding: 6px 6px;
+  .buytoken_wrp {
+    .container {
+      .row {
+        .heading_tok {
+          .buy_tok {
+            h1 {
+              font-size: 42px;
+            }
           }
-
-          .etherson_btn{
-
-            padding: 6px 30px;
+          .paragraph{
+            p{
+              width: 65%;
+            }
           }
-
-        }.row {
-          width: auto;
         }
-      } 
-    } 
-  } 
+        .glassmorphism{
+          height: auto;
+          width: 85%;
+          .row{
+            .gap_mobile{
+              padding: 27px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
+
+// @media only screen and (max-width: 768px) {
+//   .buytoken_wrp {
+//     background: url("../../../assets/images/buy_bg.png");
+//     background-size: 100% 80%;
+//     background-repeat: no-repeat;
+
+//     .container {
+//       .row {
+//         .glassmorphism {
+//           .uniswap_btn {
+//             display: flex;
+//             flex-direction: row;
+//             align-items: center;
+//             padding: 13px 20px;
+//           }
+
+//           .row {
+//             gap: 30px;
+
+//             .gap_mobile {
+//               gap: 20px;
+//               padding: 25px;
+//             }
+
+//             img {
+//               height: auto;
+//               width: 100%;
+//             }
+//           }
+//         }
+
+//         .supply {
+//           gap: 25px;
+//           .total_num {
+//             font-size: 40px;
+//           }
+//           .tot_num {
+//             font-size: 40px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media only screen and (max-width: 375px) {
+//   .buytoken_wrp {
+//     .container {
+//       .row {
+//         .btn_buynow {
+//           width: 50%;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media only screen and (max-width: 1199px) {
+//   .buytoken_wrp{
+//     .container{
+//       .row{
+//         .glassmorphism {
+
+//           width: auto;
+
+//           .uniswap_btn{
+
+//             padding: 6px 6px;
+//           }
+
+//           .etherson_btn{
+
+//             padding: 6px 30px;
+//           }
+
+//         }.row {
+//           width: auto;
+//         }
+//       }
+//     }
+//   }
+// }

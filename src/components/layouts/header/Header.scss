@@ -68,7 +68,27 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1199px) {
+  .header-wrapper {
+    nav {
+      .nav_margin {
+        margin-right: 3rem;
+      }
+      .metamask_connect_btn {
+        span {
+          font-size: 12px;
+        }
+      }
+      .nav-item {
+        padding: 5px;
+      }
+      .container {
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1023px) {
   .header-wrapper {
     nav {
       .nav_link {
@@ -78,12 +98,200 @@
         .meta {
         }
         .nav_margin {
-          background: radial-gradient(
-            52% 155% at 18% -39%,
-            #ea61d7 0%,
-            rgba(234, 97, 215, 0) 100%
-          );
+          // background: radial-gradient(
+          //   52% 155% at 18% -39%,
+          //   #ea61d7 0%,
+          //   rgba(234, 97, 215, 0) 100%
+          // );
 
+          // .added_btn {
+          //   display: block;
+          //   margin-top: 4rem;
+
+          //   // .twit_connect_btn {
+          //   //   border: none;
+          //   //   background: #55acee;
+          //   //   display: flex;
+          //   //   flex-direction: row;
+          //   //   color: #ffffff;
+          //   //   justify-content: center;
+          //   //   font-family: "HelveticaNeueLTProBdCn";
+          //   //   align-items: center;
+          //   //   // padding: 20px 30px 17px;
+          //   //   gap: 11px;
+          //   //   width: 160px;
+          //   //   height: 52px;
+          //   //   border-radius: 10px;
+          //   // }
+          //   // .dis_connect_btn {
+          //   //   border: none;
+          //   //   background: #5865f2;
+          //   //   display: flex;
+          //   //   color: #ffffff;
+          //   //   font-family: "HelveticaNeueLTProBdCn";
+          //   //   flex-direction: row;
+          //   //   justify-content: center;
+          //   //   align-items: center;
+          //   //   // padding: 20px 30px 17px;
+          //   //   gap: 11px;
+          //   //   width: 160px;
+          //   //   height: 52px;
+          //   //   border-radius: 10px;
+          //   // }
+          // }
+        }
+      }
+    }
+  } /* 650 */
+}
+
+@media only screen and (max-width: 991px) {
+  .header-wrapper {
+
+    .offcanvas{
+      background: black radial-gradient(143% 62% at 70% 36%, #EA61D7 0%, rgba(234, 97, 215, 0) 100%);
+
+      .offcanvas-header{
+
+        .reset_btn{
+          color: #fff;
+        }
+
+       
+
+          .img_agov{
+
+            padding-left: 96px;
+
+          }
+
+      
+
+        .text_agov{
+
+          color: #fff;
+
+
+        }
+
+        .navbar-brand{
+
+          display: flex;
+          justify-content: center;
+          padding: 8px;
+          gap: 12px;
+         
+          .metamsk_mobile{
+            padding-left: 85px;
+          }
+
+        }
+
+        
+      }
+
+    }
+    
+    .offcanvas-body {
+     
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #ffffff;
+
+      .navbar-nav{
+
+        .nav-link{
+
+          color: #FFFFFF;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+          padding-bottom: 30px;
+        }
+
+      }
+
+      .meta_button{
+
+        display: flex;
+        justify-content: center;
+      }
+
+      .metamask_connect_btn {
+
+        span{
+          font-size: 14px;
+        }
+
+        border: none;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 60px 12px;
+        gap: 20px;
+        background: #F7F7F7;
+        border-radius: 10px;
+      }
+      .added_btn {
+
+        border: none;
+        justify-content: center;
+        display: flex;
+        gap: 12px;
+        padding-top: 80px;
+        font-size: 20px;
+        font-family: "PF Din Text Comp Pro";
+
+        .twit_connect_btn {
+
+          border: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 20px 30px 17px;
+          gap: 11px;
+          width: 180px;
+          height: 52px;
+          background: #55acee;
+          border-radius: 10px;
+        }
+
+        .dis_connect_btn {
+
+          border: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 20px 30px 17px;
+          gap: 11px;
+          width: 160px;
+          height: 52px;
+          background: #5865f2;
+          border-radius: 10px;
+        }
+      }
+    }
+    nav {
+      .nav_link {
+        font-family: "Rubik";
+      }
+      .container {
+        .meta {
+
+          button{
+
+            box-shadow: none;
+
+          }
+
+         
+        }
+        .nav_margin {
           .added_btn {
             display: block;
             margin-top: 4rem;
@@ -125,13 +333,13 @@
   } /* 650 */
 }
 
-@media only screen and (max-width: 320px) {
-  .header-wrapper {
-    nav {
-      .link_agov_logo {
-        height: auto;
-        width: 20%;
-      }
-    }
-  }
-}
+// @media only screen and (max-width: 320px) {
+//   .header-wrapper {
+//     nav {
+//       .link_agov_logo {
+//         height: auto;
+//         width: 20%;
+//       }
+//     }
+//   }
+// }

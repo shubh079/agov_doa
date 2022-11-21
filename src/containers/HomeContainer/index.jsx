@@ -9,6 +9,8 @@ import Roadmap from "../../components/ui/Roadmap";
 import Header from "../../../src/components/layouts/header/Header";
 import "./homeContainer.scss";
 import Footer from "../../../src/components/layouts/footer/Footer";
+import RoadmapTesting from "../../components/ui/RoadmapTesting";
+
 const HomeContainer = () => {
   return (
     <div className="home_container_wrp">
@@ -21,6 +23,7 @@ const HomeContainer = () => {
       <AgovTokenMatrix />
       <BuyToken />
       <Roadmap />
+      {/* <RoadmapTesting /> */}
 
       <div className="footer_img">
         <PartnerSection />

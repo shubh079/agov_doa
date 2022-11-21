@@ -38,37 +38,19 @@ const data1 = ["Liquidity Mining"],
 const Roadmap = () => {
   return (
     <div className="roadmap_wrp">
-      <div className="roadmap_container">
+      <div className="roadmap_container container">
         <div className="roadmap_heading">
           <h1>ROADMAP</h1>
         </div>
         <div className="subheading">
           <p>
             ARV project has a long-term and permanent infrastructure designed to
-            be integrated into the real world.<br/>Ariva Team are very happy that
+            be integrated into the real world.Ariva Team are very happy that
             they adhered strictly to roadmap and completed the tasks ahead of
-            schedule.<br/>There is always more to do, more to build.
+            schedule.There is always more to do, more to build.
           </p>
         </div>
-      </div>
-
-      {/* <picture className="bigDevice">
-        <source media="(min-width:768px)" srcset={roadmap_bg} />
-        <img src={""} className="img_roadmap" alt="img" />
-      </picture> */}
-
-      {/* <img src= {roadmap_bg} className = "img_roadmap" alt = "icon"/> */}
-      {/* <div className='roadmap_responsive'>
-        <picture>
-              <source media="(max-width:480px)" srcset={circle_roadmap} />
-              <img
-                src={roadmap_bg}
-                className ="img_roadmap"
-                alt="img"
-                // style={{ width: "auto", height: "16rem" }}
-              />
-          </picture>
-            </div> */}
+     
 
       <div className="roadmap_line_image">
         <RoadmapCardSection
@@ -111,6 +93,7 @@ const Roadmap = () => {
           heading={"2022 4Q"}
           data={data8}
         />
+      </div>
       </div>
     </div>
   );

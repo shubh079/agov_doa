@@ -1,0 +1,128 @@
+.roadmap_wrp_testing{
+    .container {
+      max-width: 1366px;
+      padding: 0 30px;
+      margin: 0 auto;
+    }
+    height: 1300px;
+    text-align: center;
+    background-color: #fff;
+    background-image: url('../../../assets/images/agov_roadmap.png');
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    position: relative;
+    &::before {
+      content: '';
+      background-image: url('../../../assets/images/roadmap_backimg.png');
+      background-position: bottom right;
+      background-size: 595px 770px;
+      background-repeat: no-repeat;
+      width: 595px;
+      height: 770px;
+      position: absolute;
+      right: 0;
+      bottom: -90px;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      color: #000;
+    }
+    .roadmap_wrp_inn {
+      h4 {
+        background: linear-gradient(90deg, #000000 0%, #4c2d8d 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      p {
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 23px;
+      }
+    }
+    .roadmap_box_wrp {
+      position: relative;
+      .cmn_roadmap_box {
+        position: absolute;
+        background: #f6f6f6;
+        padding: 28px 30px 12px;
+        border-radius: 8px;
+        background-color: #f7f7f7;
+        h3 {
+          background: linear-gradient(90deg, #000000 0%, #4c2d8d 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-family: 'HelveticaNeueLTProBlkCn';
+          font-size: 25px;
+          line-height: 30px;
+          text-align: left;
+        }
+        ul {
+          list-style: none;
+          padding-left: 17px;
+  
+          margin-top: 15px;
+          li {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: left;
+            position: relative;
+            &::before {
+              content: '';
+              width: 4px;
+              height: 4px;
+              background-color: #000;
+              color: #000;
+              position: absolute;
+              left: -14px;
+              top: 7px;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+    .liqmin_box {
+      left: 40%;
+      top: 40px;
+    }
+    .firstdex_box {
+      right: 14%;
+      top: 130px;
+    }
+    .thirddex_box {
+      left: 24%;
+      top: 195px;
+    }
+    .fourthdex_box {
+      right: 14.5%;
+      top: 290px;
+    }
+    .fifth_box {
+      left: 14%;
+      top: 340px;
+    }
+    .sixth_box {
+      right: 36.5%;
+      top: 505px;
+    }
+    .seventh_box {
+      right: 17.5%;
+      top: 747px;
+    }
+    .eight_box {
+      left: 11%;
+      top: 960px;
+    }
+  }

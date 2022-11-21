@@ -109,46 +109,19 @@
 @media only screen and (max-width: 1199px) {
   .tokenmatrix_wrp {
     .container {
+      .row{
+        .token_matrix{
+          h1{
+            font-size: 42px;
+          }
+        }
+      }
     }
   }
 }
 
-/* 980 */
-@media only screen and (max-width: 1023px) {
-  .tokenmatrix_wrp {
-    .container {
-    }
-  }
-}
-
-/* 768 */
-@media only screen and (max-width: 979px) {
-  .tokenmatrix_wrp {
-    .container {
-    }
-  }
-}
-
-/* 650 */
-@media only screen and (max-width: 768px) {
-  .tokenmatrix_wrp {
-    .container {
-    }
-  }
-}
-
-/* 375 */
-@media only screen and (max-width: 479px) {
-  .tokenmatrix_wrp {
-    .container {
-    }
-  }
-}
-
-/* 320 */
-@media only screen and (max-width: 374px) {
-  .tokenmatrix_wrp {
-    .container {
-    }
+@media screen and (max-width: 980px){
+  br{
+    display: none;
   }
 }
